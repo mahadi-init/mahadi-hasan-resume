@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahadi Hasan - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @media print {
+        body {
+          margin: 0 !important;
+          padding: 0 !important;
+          background-color: #ffffff !important;
+          color: black;
+        }
+
+        .print-hidden {
+          display: none !important;
+        }
+
+        .print-mx-auto {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+
+        .print-p-0 {
+          padding: 0 !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        p,
+        ul,
+        li,
+        article,
+        section {
+          page-break-inside: avoid;
+          page-break-after: auto;
+        }
+
+        @page {
+          size: A4;
+          margin: 0.5cm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="bg-white text-gray-800 font-sans p-6 max-w-4xl mx-auto print-p-0 print-mx-auto"
+    >
+      <!-- Download Button -->
+      <div class="flex justify-end mb-6 print-hidden">
+        <button
+          onclick="window.print()"
+          class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
+        >
+          Download CV
+        </button>
+      </div>
+
+      <!-- CV Content Wrapper -->
+      <div class="print:shadow-none print:border-0 print:bg-white">
+        <!-- Header -->
+        <header class="text-center mb-6">
+          <h1 class="text-4xl font-bold text-indigo-700">Mahadi Hasan</h1>
+          <p class="text-lg text-gray-600 mt-1">
+            Node.js Developer | Full Stack Engineer
+          </p>
+          <div
+            class="flex flex-wrap justify-center gap-6 mt-3 text-sm text-gray-500"
+          >
+            <span>📞 01315631667</span>
+            <span>✉️ mahadi.dev@outlook.com</span>
+          </div>
+          <div class="flex justify-center gap-4 mt-2 text-sm text-indigo-600">
+            <a href="#" class="hover:underline"> GitHub </a>
+            <a href="#" class="hover:underline"> LinkedIn </a>
+            <a href="#" class="hover:underline"> LeetCode </a>
+          </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="mb-6 break-inside-avoid">
+          <h2
+            class="text-xl font-semibold border-b-2 border-indigo-300 pb-1 mb-2"
+          >
+            Skills
+          </h2>
+          <ul class="space-y-1 list-disc pl-5">
+            <li><strong>Leetcode & Codeforces:</strong> 250+</li>
+            <li>
+              <strong>Languages:</strong> HTML5, CSS3, JavaScript, TypeScript,
+              Java, Kotlin
+            </li>
+            <li>
+              <strong>Frontend:</strong> React, Next.js, Redux, Zod,
+              React-Hook-Form, Zustand, Tailwind CSS
+            </li>
+            <li>
+              <strong>Backend:</strong> Express.js, JWT, Middleware, MongoDB,
+              PostgreSQL, Prisma, Drizzle ORM
+            </li>
+          </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-6 break-inside-avoid">
+          <h2
+            class="text-xl font-semibold border-b-2 border-indigo-300 pb-1 mb-2"
+          >
+            Projects
+          </h2>
+          <article class="mb-3">
+            <h3 class="font-semibold text-gray-800">Texbazar Admin Panel</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              Built an intuitive admin dashboard using React and TailwindCSS for
+              seamless management of products, orders, and users.
+            </p>
+          </article>
+          <article class="mb-3">
+            <h3 class="font-semibold text-gray-800">Foody</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              Developed a food delivery web application with real-time order
+              tracking and payment integration.
+            </p>
+          </article>
+          <article class="mb-3">
+            <h3 class="font-semibold text-gray-800">ISM</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              Created an Inventory and Sales Management system with role-based
+              access control and analytics.
+            </p>
+          </article>
+          <article class="mb-3">
+            <h3 class="font-semibold text-gray-800">Android App</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              Designed and developed a native Android app with offline support
+              and Firebase backend.
+            </p>
+          </article>
+          <article class="mb-3">
+            <h3 class="font-semibold text-gray-800">Machine Learning</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              Implemented predictive models using Python and scikit-learn for
+              data analysis and forecasting.
+            </p>
+          </article>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-6 break-inside-avoid">
+          <h2
+            class="text-xl font-semibold border-b-2 border-indigo-300 pb-1 mb-2"
+          >
+            Experience
+          </h2>
+          <article class="mb-4">
+            <div class="flex flex-col sm:flex-row justify-between">
+              <h3 class="font-semibold text-gray-800">
+                Frontend Developer - TEXBAZAR LTD.
+              </h3>
+              <span class="text-sm text-gray-500 mt-1 sm:mt-0">
+                Sep 24 - Present
+              </span>
+            </div>
+            <ul class="mt-1 list-disc pl-5 space-y-1 text-sm">
+              <li>
+                Followed Figma designs to build pixel-perfect UIs with React and
+                Next.js
+              </li>
+              <li>Managed complex UIs and deeply nested layouts</li>
+              <li>
+                Handled form submission with react-hook-form, Zod, and server
+                actions
+              </li>
+              <li>Built real-time chat systems</li>
+              <li>Managed global state with Redux and Zustand</li>
+              <li>
+                Integrated payment and transaction systems with AmarPay and
+                other services
+              </li>
+            </ul>
+          </article>
+          <article class="mb-4">
+            <div class="flex flex-col sm:flex-row justify-between">
+              <h3 class="font-semibold text-gray-800">
+                Node.js Developer - SKYLAND WEB
+              </h3>
+              <span class="text-sm text-gray-500 mt-1 sm:mt-0">
+                Mar 24 - Aug 24
+              </span>
+            </div>
+            <ul class="mt-1 list-disc pl-5 space-y-1 text-sm">
+              <li>
+                Built REST APIs using Express.js following MVC patterns and ES
+                modules
+              </li>
+              <li>Managed databases with MongoDB and PostgreSQL</li>
+              <li>Collaborated using Postman for API documentation</li>
+              <li>
+                Implemented JWT authentication, middleware authorization, and
+                role-based security
+              </li>
+              <li>Deployed apps on Vercel, Render, and Docker hosts</li>
+            </ul>
+          </article>
+        </section>
+
+        <!-- Education Section -->
+        <section class="break-inside-avoid">
+          <h2
+            class="text-xl font-semibold border-b-2 border-indigo-300 pb-1 mb-2"
+          >
+            Education
+          </h2>
+          <article>
+            <div class="flex flex-col sm:flex-row justify-between">
+              <h3 class="font-semibold text-gray-800">
+                Daffodil International University
+              </h3>
+              <span class="text-sm text-gray-500 mt-1 sm:mt-0"> Jun 2023 </span>
+            </div>
+            <p class="mt-1 text-sm">
+              Bachelor of Computer Science and Engineering
+            </p>
+          </article>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
